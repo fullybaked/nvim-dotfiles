@@ -13,7 +13,7 @@ map <C-f> :FZF<cr>
 map <C-t> :Tags<cr>
 map <Leader>b :Buffers<cr>
 map <Leader>f :Files<cr>
-map <Leader>s :Ag 
+map <Leader>s :Ag<cr>
 
 map <Leader>wf :Files ~/vimwiki<cr>
 
