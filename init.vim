@@ -48,5 +48,7 @@ call s:source_file('layers/elixir.vim')
 call s:source_file('layers/completion.vim')
 call s:source_file('layers/tags.vim')
 
+call s:source_file('layers/zapier.vim')
+
 call s:source_file('plugins/colorscheme.vim')
 

@@ -14,6 +14,20 @@ command! RebaseSquash silent execute '2,$s/^pick/s/|silent! w!|2'
 nnoremap <silent> <Leader>gs :Gstatus<CR>
 nnoremap <silent> <Leader>gp :Git push -u --force<CR>
 nnoremap <silent> <Leader>gc :GCheckout<cr>
-nnoremap <silent> <Leader>rb :RebaseSquash<cr>
+nnoremap <silent> <Leader>gr :RebaseSquash<cr>
+
+
+" Assumes the gh cli tool is installed
+" https://github.com/cli/cli
+"
+command! OpenPR silent !gh pr view --web
+nnoremap <silent> <Leader>go :OpenPR<cr>
+
+" Assumes you have setup the following as a git alias in $HOME/.gitconfig
+" [prlog = "!f() { git log ${1:-develop}..HEAD --reverse --no-merges --pretty='---%n%n**%s** (%h)%n%n%b'; }; f"]
+command! InsertPrlog read !git prlog
+command! CopyPrlog !git prlog | pbcopy
+nnoremap <silent> <Leader>gli :InsertPrlog<cr>
+nnoremap <silent> <Leader>glc :CopyPrlog<cr>
 
 " vim:ft=vim

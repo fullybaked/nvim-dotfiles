@@ -19,12 +19,10 @@ let g:black_skip_string_normalization = 1
 
 call dein#add('davidhalter/jedi-vim')
 let g:jedi#completions_enabled = 0
-let g:jedi#use_splits_not_buffers = "left"
+let g:jedi#use_tabs_not_buffers = 1
 
 call dein#add('fisadev/vim-isort')
 
 call dein#add('Glench/Vim-Jinja2-Syntax')
 au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
-
-au FileType python :iabbr ipd import ipdb<cr>ipdb.set_trace()<esc>
 " vim:ft=vim
