@@ -17,6 +17,15 @@ let g:virtualenv_directory = $PWD
 call dein#add('psf/black')
 let g:black_skip_string_normalization = 1
 
+" Add jedi completion support to Deoplete
+call dein#add('deoplete-plugins/deoplete-jedi')
+
+" Enable poetry support
+call dein#add('petobens/poet-v')
+let g:poetv_executables = ['poetry']
+let g:poetv_auto_activate = 1
+
+
 call dein#add('davidhalter/jedi-vim')
 let g:jedi#completions_enabled = 0
 let g:jedi#use_tabs_not_buffers = 1

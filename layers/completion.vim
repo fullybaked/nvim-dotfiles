@@ -18,8 +18,15 @@ inoremap <S-Tab> <c-p>
 call dein#add('Shougo/deoplete.nvim', {'do': 'UpdateRemotePlugins'})
 
 let g:deoplete#enable_at_startup = 1
+
 call deoplete#custom#option({
+      \ 'ignore_case': v:true,
       \ 'smart_case': v:true,
       \ })
-set completeopt=longest,menuone
 
+" Completion from other open files
+call dein#add('Shougo/context_filetype.vim')
+
+" complete with words from any opened file
+let g:context_filetype#same_filetypes = {}
+let g:context_filetype#same_filetypes._ = '_'
