@@ -4,7 +4,7 @@ call dein#add('christoomey/vim-tmux-navigator')
 " Run commands in a tmux split
 call dein#add('christoomey/vim-tmux-runner')
 let g:VtrDetachedName = "detached"
-let g:VtrPercentage = 5
+let g:VtrPercentage = 15
 
 nmap <silent> <C-e>o :VtrOpenRunner<cr>
 nmap <silent> <C-e>f :VtrFocusRunner<cr>

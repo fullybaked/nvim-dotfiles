@@ -30,6 +30,8 @@ call dein#add('davidhalter/jedi-vim')
 let g:jedi#completions_enabled = 0
 let g:jedi#use_tabs_not_buffers = 1
 
+nnoremap <silent> <Leader>o :call jedi#usages()<cr>
+
 call dein#add('fisadev/vim-isort')
 
 call dein#add('Glench/Vim-Jinja2-Syntax')

@@ -27,12 +27,6 @@ call dein#add('nelstrom/vim-textobj-rubyblock')
 " Jump to FactoryBot definitions
 call dein#add('christoomey/vim-rfactory')
 
-" See https://www.youtube.com/watch?time_continue=1&v=kB2zSdVXT7k
-call dein#add('AndrewRadev/sideways.vim')
-call dein#add('AndrewRadev/splitjoin.vim')
-call dein#add('AndrewRadev/tagalong.vim')
-call dein#add('AndrewRadev/switch.vim')
-
 " Enable compiler support for ruby
 compiler ruby
 

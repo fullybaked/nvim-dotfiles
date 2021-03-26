@@ -29,11 +29,9 @@ call s:source_file('config/line-numbers.vim')
 call s:source_file('config/functions.vim')
 call s:source_file('config/statusline.vim')
 
-
 " Plugins are single third-party tools that require significant setup
 call s:source_file('plugins/fzf.vim')
 call s:source_file('plugins/ale.vim')
-call s:source_file('plugins/replace-with-register.vim')
 call s:source_file('plugins/vimwiki.vim')
 
 " Layers are collections of plugins and settings for a given concept
@@ -42,7 +40,7 @@ call s:source_file('layers/general.vim')
 call s:source_file('layers/completion.vim')
 call s:source_file('layers/git.vim')
 call s:source_file('layers/python.vim')
-call s:source_file('layers/ruby.vim')
+" call s:source_file('layers/ruby.vim')
 call s:source_file('layers/tmux.vim')
 call s:source_file('layers/file-browsing.vim')
 call s:source_file('layers/elixir.vim')
