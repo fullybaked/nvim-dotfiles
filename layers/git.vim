@@ -12,8 +12,9 @@ autocmd BufEnter PULLREQ_EDITMSG setlocal filetype=gitcommit
 command! RebaseSquash silent execute '2,$s/^pick/s/|silent! w!|2'
 
 nnoremap <silent> <Leader>gs :Gstatus<CR>
-nnoremap <silent> <Leader>gp :Git push -u --force<CR>
-nnoremap <silent> <Leader>gc :GCheckout<cr>
+nnoremap <silent> <Leader>gp :Git push -u<CR>
+nnoremap <silent> <Leader>gf :Git push -u --force<CR>
+nnoremap <silent> <Leader>gb :GBranches<cr>
 nnoremap <silent> <Leader>gr :RebaseSquash<cr>
 
 

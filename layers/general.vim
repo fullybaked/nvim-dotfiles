@@ -1,5 +1,8 @@
 runtime macros/matchit.vim
 
+
+call dein#add('mhinz/vim-startify')
+
 " Surrounding characters (ludicrously useful)
 call dein#add('tpope/vim-surround')
 
@@ -52,3 +55,5 @@ call dein#add('AndrewRadev/switch.vim')
 " Eg. griw
 "
 call dein#add('vim-scripts/ReplaceWithRegister')
+
+call dein#add('easymotion/vim-easymotion')

@@ -5,6 +5,9 @@
 " Better syntax highlighting support
 call dein#add('sheerun/vim-polyglot')
 
+" call dein#add('rktjmp/lush.nvim')
+" call dein#add('npxbr/gruvbox.nvim')
+
 call dein#add('morhetz/gruvbox')
 colorscheme gruvbox
 

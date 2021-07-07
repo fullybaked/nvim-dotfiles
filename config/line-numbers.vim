@@ -13,6 +13,6 @@ function! ToggleRelativeLineNumber()
   endif
 
 endfunction
-nmap <Leader>n :call ToggleRelativeLineNumber()<cr>
+nnoremap <Leader>n :call ToggleRelativeLineNumber()<cr>
 
 " vim:ft=vim

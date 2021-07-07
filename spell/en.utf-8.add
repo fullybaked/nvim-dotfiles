@@ -6,3 +6,7 @@ README
 webhook
 Avro
 django
+PollTriggerSubscription
+dedupe
+App
+API

@@ -69,5 +69,6 @@ nmap <Leader>tp :tabprev<cr>
 " Short cut to splits (\ is the | without a shift)
 nnoremap <silent> <Leader>\ :vsp<cr>
 nnoremap <silent> <Leader>- :split<cr>
+nnoremap <silent> <Leader>= :wincmd =<cr>
 
 

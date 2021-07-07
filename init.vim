@@ -7,6 +7,13 @@
 "     \ \__\\ \__\   \ \_______\   \ \_______\   \ \__/ /      \ \__\   \ \__\    \ \__\
 "      \|__| \|__|    \|_______|    \|_______|    \|__|/        \|__|    \|__|     \|__|
 "
+"
+" startify - fancy startup screen
+" vimfiler - nerdtree replacement ??
+"
+"
+"
+"
 if &compatible
   set nocompatible
 endif
@@ -33,6 +40,7 @@ call s:source_file('config/statusline.vim')
 call s:source_file('plugins/fzf.vim')
 call s:source_file('plugins/ale.vim')
 call s:source_file('plugins/vimwiki.vim')
+call s:source_file('plugins/vimtest.vim')
 
 " Layers are collections of plugins and settings for a given concept
 " E.g. A programming tool or language
@@ -43,7 +51,7 @@ call s:source_file('layers/python.vim')
 " call s:source_file('layers/ruby.vim')
 call s:source_file('layers/tmux.vim')
 call s:source_file('layers/file-browsing.vim')
-call s:source_file('layers/elixir.vim')
+" call s:source_file('layers/elixir.vim')
 call s:source_file('layers/tags.vim')
 
 call s:source_file('layers/zapier.vim')
