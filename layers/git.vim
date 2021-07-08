@@ -5,6 +5,9 @@ call dein#add('tpope/vim-fugitive')
 call dein#add('airblade/vim-gitgutter')
 call dein#add('stsewd/fzf-checkout.vim')
 call dein#add('knsh14/vim-github-link')
+call dein#add('kdheepak/lazygit.nvim')
+
+nnoremap <silent> <Leader>gg :LazyGit<CR>
 
 autocmd FileType gitcommit set spell
 autocmd BufEnter PULLREQ_EDITMSG setlocal filetype=gitcommit
