@@ -22,14 +22,14 @@ let g:startify_custom_header = [
           \ ]
 
 let g:startify_list_order = [
-      \ ['   My most recently used files in the current directory:'],
+      \ ['   Recently used files in this dir:'],
       \ 'dir',
-      \ ['   My most recently used files:'],
+      \ ['   Recently used files in general:'],
       \ 'files',
-      \ ['   These are my sessions:'],
-      \ 'sessions',
-      \ ['   These are my bookmarks:'],
+      \ ['   Bookmarks:'],
       \ 'bookmarks',
+      \ ['   Sessions:'],
+      \ 'sessions',
       \ ]
 
 let g:startify_bookmarks = [ {'c': '~/.config/nvim/init.vim'}, {'z': '~/.zshrc'} ]
