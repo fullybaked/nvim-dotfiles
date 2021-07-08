@@ -3,6 +3,11 @@ runtime macros/matchit.vim
 
 call dein#add('mhinz/vim-startify')
 
+set timeout
+set timeoutlen=500
+call dein#add('liuchengxu/vim-which-key')
+nnoremap <silent> <Leader> :WhichKey '<Space>'<CR>
+
 " Surrounding characters (ludicrously useful)
 call dein#add('tpope/vim-surround')
 
