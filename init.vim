@@ -8,7 +8,6 @@
 "      \|__| \|__|    \|_______|    \|_______|    \|__|/        \|__|    \|__|     \|__|
 "
 "
-" startify - fancy startup screen
 " vimfiler - nerdtree replacement ??
 "
 "
@@ -41,6 +40,7 @@ call s:source_file('plugins/fzf.vim')
 call s:source_file('plugins/ale.vim')
 call s:source_file('plugins/vimwiki.vim')
 call s:source_file('plugins/vimtest.vim')
+call s:source_file('plugins/telescope.vim')
 
 " Layers are collections of plugins and settings for a given concept
 " E.g. A programming tool or language
