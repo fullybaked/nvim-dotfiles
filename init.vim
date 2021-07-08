@@ -42,6 +42,8 @@ call s:source_file('plugins/vimwiki.vim')
 call s:source_file('plugins/vimtest.vim')
 call s:source_file('plugins/telescope.vim')
 
+call s:source_file('plugins/startify.vim')
+
 " Layers are collections of plugins and settings for a given concept
 " E.g. A programming tool or language
 call s:source_file('layers/general.vim')

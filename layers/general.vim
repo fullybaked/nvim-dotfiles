@@ -1,8 +1,5 @@
 runtime macros/matchit.vim
 
-
-call dein#add('mhinz/vim-startify')
-
 set timeout
 set timeoutlen=500
 call dein#add('liuchengxu/vim-which-key')
