@@ -5,6 +5,8 @@ let maplocalleader = ","
 
 " Easier escaping from home row
 inoremap <silent> jj <Esc>
+inoremap <silent> jk <Esc>
+inoremap <silent> kj <Esc>
 
 " Bounce between two buffers
 nnoremap <leader><leader> <c-^>
@@ -19,12 +21,12 @@ nnoremap <silent> Y y$
 " This will run the macro in q register
 nnoremap Q @q
 
-" Use Ctrl-Q, to Esc out of any mode
-nnoremap <C-q> <Esc>:noh<CR>
-vnoremap <C-q> <Esc>gV
-onoremap <C-q> <Esc>
-cnoremap <C-q> <C-c>
-inoremap <C-q> <Esc>
+" Use Ctrl-c, to Esc out of any mode
+nnoremap <C-c> <Esc>:noh<CR>
+vnoremap <C-c> <Esc>gV
+onoremap <C-c> <Esc>
+cnoremap <C-c> <C-c>
+inoremap <C-c> <Esc>
 
 " Clean trailing whitespace
 nnoremap <silent> <Leader>ws :%s/\s\+$//e<cr>
@@ -70,5 +72,3 @@ nmap <Leader>tp :tabprev<cr>
 nnoremap <silent> <Leader>\ :vsp<cr>
 nnoremap <silent> <Leader>- :split<cr>
 nnoremap <silent> <Leader>= :wincmd =<cr>
-
-
