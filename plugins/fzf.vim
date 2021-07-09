@@ -1,8 +1,8 @@
 " --------------------------------------------------
 "  Fuzzy searching
 " --------------------------------------------------
-call dein#add('junegunn/fzf', { 'build': './install --all', 'merged': 0 }) 
-call dein#add('junegunn/fzf.vim', { 'depends': 'fzf' })
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 
 set rtp+=/usr/local/opt/fzf
 set rtp+=~/.fzf

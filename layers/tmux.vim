@@ -1,8 +1,8 @@
 " Better nav with tmux see https://github.com/christoomey/vim-tmux-navigator
-call dein#add('christoomey/vim-tmux-navigator')
+Plug 'christoomey/vim-tmux-navigator'
 
 " Run commands in a tmux split
-call dein#add('christoomey/vim-tmux-runner')
+Plug 'christoomey/vim-tmux-runner'
 let g:VtrDetachedName = "detached"
 let g:VtrPercentage = 15
 

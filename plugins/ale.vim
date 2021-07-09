@@ -1,4 +1,4 @@
-call dein#add('w0rp/ale')
+Plug 'w0rp/ale'
 
 let g:ale_linters = {
       \    'python': ['flake8'],

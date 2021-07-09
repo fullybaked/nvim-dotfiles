@@ -4,9 +4,9 @@
 " https://github.com/universal-ctags/homebrew-universal-ctags
 " --------------------------------------------------
 
-call dein#add('majutsushi/tagbar')
-call dein#add('universal-ctags/ctags')
-call dein#add('ludovicchabant/vim-gutentags')
+Plug 'majutsushi/tagbar'
+Plug 'universal-ctags/ctags'
+Plug 'ludovicchabant/vim-gutentags'
 
 let g:tagbar_autofocus = 1
 let g:tagbar_autoclose = 1

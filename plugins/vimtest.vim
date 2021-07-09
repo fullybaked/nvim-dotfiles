@@ -1,5 +1,4 @@
-
-call dein#add('vim-test/vim-test')
+Plug 'vim-test/vim-test'
 "
 " these "Ctrl mappings" work well when Caps Lock is mapped to Ctrl
 nmap <silent> t<C-n> :TestNearest<CR>

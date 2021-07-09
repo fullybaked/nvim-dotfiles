@@ -1,4 +1,4 @@
-call dein#add('mhinz/vim-startify')
+Plug 'mhinz/vim-startify'
 
 let g:startify_custom_header = [
           \'',

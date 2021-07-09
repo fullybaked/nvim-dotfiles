@@ -3,15 +3,15 @@
 " --------------------------------------------------
 "
 " Better syntax highlighting support
-call dein#add('nvim-treesitter/nvim-treesitter')
-call dein#add('sheerun/vim-polyglot')
+Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'sheerun/vim-polyglot'
 
-call dein#add('tjdevries/colorbuddy.nvim')
-call dein#add('bkegley/gloombuddy')
-call dein#add('sainnhe/sonokai')
-call dein#add('sainnhe/everforest')
-call dein#add('sainnhe/gruvbox-material')
-call dein#add('sainnhe/edge')
+Plug 'tjdevries/colorbuddy.nvim'
+Plug 'bkegley/gloombuddy'
+Plug 'sainnhe/sonokai'
+Plug 'sainnhe/everforest'
+Plug 'sainnhe/gruvbox-material'
+Plug 'sainnhe/edge'
 
 colorscheme edge
 

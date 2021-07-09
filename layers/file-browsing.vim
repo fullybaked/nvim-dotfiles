@@ -2,7 +2,7 @@
 " File/Directory browser
 " --------------------------------------------------
 " Better netrw for directory stuff
-call dein#add('tpope/vim-vinegar')
+Plug 'tpope/vim-vinegar'
 let g:netrw_liststyle = 1 " Detail View
 let g:netrw_sizestyle = "H" " Human-readable file sizes
 let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+' " hide dotfiles
