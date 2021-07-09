@@ -25,9 +25,14 @@ function! s:source_file(path)
   execute "source" fnameescape(abspath)
 endfunction
 
+
+" Uses vim-plug to manage dependencies
+" See https://github.com/junegunn/vim-plug
+" Start a vim-plug scope before sourcing other config
+call plug#begin(stdpath('data') . '/plugged')
+
 " Configs are pure Vim/NeoVim settings that don't require any third-party code to work
 call s:source_file('config/init.vim')
-call s:source_file('config/plugins.vim')
 call s:source_file('config/mappings.vim')
 call s:source_file('config/clipboard.vim')
 call s:source_file('config/settings.vim')
@@ -59,3 +64,5 @@ call s:source_file('layers/zapier.vim')
 
 call s:source_file('plugins/colorscheme.vim')
 
+" Close out the vim-plug scope
+call plug#end()
