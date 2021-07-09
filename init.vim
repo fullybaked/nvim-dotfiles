@@ -9,9 +9,8 @@
 "
 "
 " vimfiler - nerdtree replacement ??
-"
-"
-"
+" nv-compe - better completion
+" lsp stuff?
 "
 if &compatible
   set nocompatible
@@ -32,7 +31,6 @@ endfunction
 call plug#begin(stdpath('data') . '/plugged')
 
 " Configs are pure Vim/NeoVim settings that don't require any third-party code to work
-call s:source_file('config/init.vim')
 call s:source_file('config/mappings.vim')
 call s:source_file('config/clipboard.vim')
 call s:source_file('config/settings.vim')
@@ -43,9 +41,9 @@ call s:source_file('config/statusline.vim')
 " Plugins are single third-party tools that require significant setup
 call s:source_file('plugins/fzf.vim')
 call s:source_file('plugins/ale.vim')
-call s:source_file('plugins/vimwiki.vim')
 call s:source_file('plugins/vimtest.vim')
 call s:source_file('plugins/startify.vim')
+" call s:source_file('plugins/vimwiki.vim')
 " call s:source_file('plugins/telescope.vim')
 
 " Layers are collections of plugins and settings for a given concept
@@ -57,11 +55,11 @@ call s:source_file('layers/python.vim')
 call s:source_file('layers/tmux.vim')
 call s:source_file('layers/file-browsing.vim')
 call s:source_file('layers/tags.vim')
+call s:source_file('layers/zapier.vim')
 " call s:source_file('layers/ruby.vim')
 " call s:source_file('layers/elixir.vim')
 
-call s:source_file('layers/zapier.vim')
-
+" Colour scheme is last to make sure other plugins don't mess with it
 call s:source_file('plugins/colorscheme.vim')
 
 " Close out the vim-plug scope
