@@ -40,9 +40,8 @@ call s:source_file('plugins/fzf.vim')
 call s:source_file('plugins/ale.vim')
 call s:source_file('plugins/vimwiki.vim')
 call s:source_file('plugins/vimtest.vim')
-call s:source_file('plugins/telescope.vim')
-
 call s:source_file('plugins/startify.vim')
+" call s:source_file('plugins/telescope.vim')
 
 " Layers are collections of plugins and settings for a given concept
 " E.g. A programming tool or language
@@ -50,11 +49,11 @@ call s:source_file('layers/general.vim')
 call s:source_file('layers/completion.vim')
 call s:source_file('layers/git.vim')
 call s:source_file('layers/python.vim')
-" call s:source_file('layers/ruby.vim')
 call s:source_file('layers/tmux.vim')
 call s:source_file('layers/file-browsing.vim')
-" call s:source_file('layers/elixir.vim')
 call s:source_file('layers/tags.vim')
+" call s:source_file('layers/ruby.vim')
+" call s:source_file('layers/elixir.vim')
 
 call s:source_file('layers/zapier.vim')
 
