@@ -15,8 +15,6 @@ map <Leader>b :Buffers<cr>
 map <Leader>f :Files<cr>
 map <Leader>s :Ag<cr>
 
-map <Leader>wf :Files ~/vimwiki<cr>
-
 function SearchWordUnderCursor()
   let g:search_term = expand("<cword>")
   call fzf#vim#ag(g:search_term)
