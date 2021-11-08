@@ -1,6 +1,12 @@
 " --------------------------------------------------
 " Python setup
 " --------------------------------------------------
+" Language server
+" Plug 'neovim/nvim-lspconfig'
+" lua << EOF
+"   local nvim_lsp = require 'lspconfig'
+"   nvim_lsp.pyls.setup()
+" EOF
 
 " PEP8 checking
 Plug 'nvie/vim-flake8'
