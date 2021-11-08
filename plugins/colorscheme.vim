@@ -13,8 +13,6 @@ Plug 'sainnhe/everforest'
 Plug 'sainnhe/gruvbox-material'
 Plug 'sainnhe/edge'
 
-colorscheme edge
-
 " Enable TrueColor
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set t_Co=256
