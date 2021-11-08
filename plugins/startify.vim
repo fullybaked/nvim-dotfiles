@@ -34,3 +34,5 @@ let g:startify_list_order = [
 
 let g:startify_bookmarks = [ {'c': '~/.config/nvim/init.vim'}, {'z': '~/.zshrc'} ]
 
+" Don't switch the working dir to that of the file being opened
+let g:startify_change_to_dir = 0
