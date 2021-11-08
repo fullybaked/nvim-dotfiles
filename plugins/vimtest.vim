@@ -8,5 +8,6 @@ nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
 
 let test#strategy = "vtr"
+let test#python#runner = 'pyunit'
 let test#python#pyunit#executable = 'inv vim-test'
 let test#python#djangotest#executable = 'inv vim-test'
